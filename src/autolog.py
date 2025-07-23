@@ -42,6 +42,7 @@ print(params)
 
 xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size=0.3, random_state=2)
 
+mlflow.autolog()
 mlflow.set_experiment("Complete-ML-Flow-tutorial2")
 
 with mlflow.start_run():
@@ -65,13 +66,13 @@ with mlflow.start_run():
 
 
 
-    mlflow.log_metric("Accuracy", acc)
-    mlflow.log_param("Max_depth",params["file1"]['max_depth'])
-    mlflow.log_param("N_estimators",params["file1"]['n_estimators'])
+    # mlflow.log_metric("Accuracy", acc)
+    # mlflow.log_param("Max_depth",params["file1"]['max_depth'])
+    # mlflow.log_param("N_estimators",params["file1"]['n_estimators'])
     mlflow.log_artifact(__file__)
-    mlflow.log_artifact("confussion_matrix.png")
-    joblib.dump(rf, "rf_model.pkl")
-    mlflow.log_artifact("rf_model.pkl")
+    # mlflow.log_artifact("confussion_matrix.png")
+    # joblib.dump(rf, "rf_model.pkl")
+    # mlflow.log_artifact("rf_model.pkl")
 
     #TAGS
     mlflow.set_tags({"Author":"me", "Proj":"Wine_dataset"})
