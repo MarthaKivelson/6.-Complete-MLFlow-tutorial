@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/kputt/Desktop/study%20meterial/MLOps/6.-Complete-MLFlow-tutorial/mlruns/327889448286603782/1d33cd3050c3458e98209bc0eb773723/artifacts
+end_time: 1753281266125
+entry_point_name: ''
+experiment_id: '327889448286603782'
+lifecycle_stage: active
+run_id: 1d33cd3050c3458e98209bc0eb773723
+run_name: angry-crane-729
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753281262549
+status: 4
+tags: []
+user_id: kputt

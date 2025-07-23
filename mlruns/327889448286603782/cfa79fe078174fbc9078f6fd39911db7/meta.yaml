@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/kputt/Desktop/study%20meterial/MLOps/6.-Complete-MLFlow-tutorial/mlruns/327889448286603782/cfa79fe078174fbc9078f6fd39911db7/artifacts
+end_time: 1753281235764
+entry_point_name: ''
+experiment_id: '327889448286603782'
+lifecycle_stage: active
+run_id: cfa79fe078174fbc9078f6fd39911db7
+run_name: polite-ox-42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753281232241
+status: 4
+tags: []
+user_id: kputt

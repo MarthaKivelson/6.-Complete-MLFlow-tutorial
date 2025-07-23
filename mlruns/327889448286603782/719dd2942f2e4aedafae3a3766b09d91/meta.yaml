@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/kputt/Desktop/study%20meterial/MLOps/6.-Complete-MLFlow-tutorial/mlruns/327889448286603782/719dd2942f2e4aedafae3a3766b09d91/artifacts
+end_time: 1753281350527
+entry_point_name: ''
+experiment_id: '327889448286603782'
+lifecycle_stage: active
+run_id: 719dd2942f2e4aedafae3a3766b09d91
+run_name: likeable-hawk-723
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753281347090
+status: 4
+tags: []
+user_id: kputt

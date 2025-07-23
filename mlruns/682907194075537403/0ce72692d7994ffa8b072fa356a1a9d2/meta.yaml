@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/kputt/Desktop/study%20meterial/MLOps/6.-Complete-MLFlow-tutorial/mlruns/682907194075537403/0ce72692d7994ffa8b072fa356a1a9d2/artifacts
+end_time: 1753280864266
+entry_point_name: ''
+experiment_id: '682907194075537403'
+lifecycle_stage: active
+run_id: 0ce72692d7994ffa8b072fa356a1a9d2
+run_name: unique-hare-886
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753280861120
+status: 4
+tags: []
+user_id: kputt

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/kputt/Desktop/study%20meterial/MLOps/6.-Complete-MLFlow-tutorial/mlruns/327889448286603782/928da7fcec204a5ab2cd9fbd94138c02/artifacts
+end_time: 1753281476941
+entry_point_name: ''
+experiment_id: '327889448286603782'
+lifecycle_stage: active
+run_id: 928da7fcec204a5ab2cd9fbd94138c02
+run_name: persistent-mouse-87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753281472937
+status: 3
+tags: []
+user_id: kputt
