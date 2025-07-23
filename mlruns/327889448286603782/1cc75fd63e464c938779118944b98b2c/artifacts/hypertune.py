@@ -1,4 +1,3 @@
-import mlflow.data.pandas_dataset
 from sklearn.datasets import load_wine
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -13,11 +12,10 @@ import seaborn as sns
 import joblib
 from sklearn.model_selection import GridSearchCV
 import dagshub
-import pandas as pd
 
-dagshub.init(repo_owner="MarthaKivelson", repo_name="Complete_MLFlow_tutorial", mlflow=True)
+#dagshub.init(repo_owner="MarthaKivelson", repo_name="Complete_MLFlow_tutorial", mlflow=True)
 
-mlflow.set_tracking_uri("https://dagshub.com/MarthaKivelson/6.-Complete-MLFlow-tutorial.mlflow/")
+#mlflow.set_tracking_uri("https://dagshub.com/MarthaKivelson/6.-Complete-MLFlow-tutorial.mlflow/")
 
 log_dir = 'logs'
 os.makedirs(log_dir,exist_ok=True)
@@ -34,8 +32,8 @@ consolehandler.setFormatter(formatter)
 logger.addHandler(consolehandler)
 
 data = load_wine()
-x = pd.DataFrame(data.data)
-y = pd.Series(data.target)
+x = data.data
+y = data.target
 #logger.debug(f"Input\n {x}\n, \n Output{y}")
 
 rf = RandomForestClassifier(random_state=42)
@@ -50,14 +48,9 @@ xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size=0.3, random_stat
 mlflow.set_experiment("Complete-ML-Flow-tutorial-hp")
 
 
-with mlflow.start_run() as parent:
-    gscv.fit(xtrain, ytrain)
-    
-    for i in range(len(gscv.cv_results_['params'])):
-        with mlflow.start_run(nested=True):
-            mlflow.log_params(gscv.cv_results_["params"][i])
-            mlflow.log_metric("Accuracy", gscv.cv_results_["mean_test_score"][i]) 
+with mlflow.start_run():
 
+    gscv.fit(xtrain, ytrain)
     logger.debug("GSCV done")
     best_params = gscv.best_params_
     best_score = gscv.best_score_
@@ -78,11 +71,8 @@ with mlflow.start_run() as parent:
 
     plt.savefig("confussion_matrix.png")
 
-    # train_df = xtrain.copy()
-    # train_df['target'] = ytrain
-    # logger.debug(train_df)
-    # train_df = mlflow.data.pandas_dataset.PandasDataset(train_df, source='local')
-    #mlflow.log_inputs(train_df, contexts='training')
+
+
     mlflow.log_metric("Accuracy", acc)
     mlflow.log_param("Max_depth",params['max_depth'])
     mlflow.log_param("N_estimators",params['n_estimators'])

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/kputt/Desktop/study%20meterial/MLOps/6.-Complete-MLFlow-tutorial/mlruns/327889448286603782/1cc75fd63e464c938779118944b98b2c/artifacts
+end_time: 1753281584115
+entry_point_name: ''
+experiment_id: '327889448286603782'
+lifecycle_stage: active
+run_id: 1cc75fd63e464c938779118944b98b2c
+run_name: unique-snipe-120
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753281580168
+status: 3
+tags: []
+user_id: kputt
