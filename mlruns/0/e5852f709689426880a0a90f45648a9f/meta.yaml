@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/kputt/Desktop/study%20meterial/MLOps/6.-Complete-MLFlow-tutorial/mlruns/0/e5852f709689426880a0a90f45648a9f/artifacts
+end_time: 1753264121754
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e5852f709689426880a0a90f45648a9f
+run_name: worried-goat-965
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753264120644
+status: 4
+tags: []
+user_id: kputt

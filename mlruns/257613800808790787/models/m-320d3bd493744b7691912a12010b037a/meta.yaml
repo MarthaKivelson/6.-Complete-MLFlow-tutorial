@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/kputt/Desktop/study%20meterial/MLOps/6.-Complete-MLFlow-tutorial/mlruns/257613800808790787/models/m-320d3bd493744b7691912a12010b037a/artifacts
+creation_timestamp: 1753265188330
+experiment_id: '257613800808790787'
+last_updated_timestamp: 1753265193541
+model_id: m-320d3bd493744b7691912a12010b037a
+model_type: null
+name: RFC
+source_run_id: e1179bf1830240fd92993c5260567769
+status: 2
+status_message: null

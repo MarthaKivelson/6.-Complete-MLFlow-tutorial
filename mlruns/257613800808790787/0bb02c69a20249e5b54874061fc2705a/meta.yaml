@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/kputt/Desktop/study%20meterial/MLOps/6.-Complete-MLFlow-tutorial/mlruns/257613800808790787/0bb02c69a20249e5b54874061fc2705a/artifacts
+end_time: 1753264437182
+entry_point_name: ''
+experiment_id: '257613800808790787'
+lifecycle_stage: active
+run_id: 0bb02c69a20249e5b54874061fc2705a
+run_name: redolent-hog-360
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753264436715
+status: 3
+tags: []
+user_id: kputt

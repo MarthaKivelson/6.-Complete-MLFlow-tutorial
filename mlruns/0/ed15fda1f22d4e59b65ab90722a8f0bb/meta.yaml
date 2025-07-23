@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/kputt/Desktop/study%20meterial/MLOps/6.-Complete-MLFlow-tutorial/mlruns/0/ed15fda1f22d4e59b65ab90722a8f0bb/artifacts
+end_time: 1753263350059
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed15fda1f22d4e59b65ab90722a8f0bb
+run_name: abrasive-doe-141
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753263349984
+status: 3
+tags: []
+user_id: kputt

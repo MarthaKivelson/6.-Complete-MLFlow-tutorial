@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/kputt/Desktop/study%20meterial/MLOps/6.-Complete-MLFlow-tutorial/mlruns/257613800808790787/e5a2f03a7859420bbd7fb7639fa74af9/artifacts
+end_time: 1753264959886
+entry_point_name: ''
+experiment_id: '257613800808790787'
+lifecycle_stage: active
+run_id: e5a2f03a7859420bbd7fb7639fa74af9
+run_name: chill-dolphin-243
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753264950307
+status: 3
+tags: []
+user_id: kputt
